@@ -1,0 +1,85 @@
+
+
+/* First section  */
+
+
+.two-box{
+    display: flex;
+    /* border: 3px solid red; */
+    margin: 0px auto;
+    width: 1400px;
+   
+    box-shadow: 0px 3px 3px 3px rgb(232, 230, 230);
+
+    /* must we have to set up 2 property for all section curraction */
+}
+
+.box-1{
+    /* border: 2px solid red; */
+    padding: 30px;
+    margin-right: 250px;
+  
+}
+.Mission-heading{
+font-size: 50px;
+border-left: 3px solid plum;
+}
+
+.Mission-description{
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 2px solid red; */
+    width: 600px;
+    padding: 10px;
+   
+}
+
+.main-btn{
+    padding: 20px;
+    width: 180px;
+    /* height: 15px; */
+    background-color: coral;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.span{
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.This-year{
+    color: tomato;
+}
+
+
+.box-2 img{
+    width: 400px;
+    height: 500px;
+    /* padding: 30px; */
+}
+
+
+@media screen and (max-width:1170px) {
+
+    .two-box{
+        flex-direction: column;
+        width: 580px;
+      
+    }
+    .Mission-description{
+        word-wrap: wrap;
+        width: 400px;
+    }
+    .box-2 img{
+        margin-left: 30px;
+    }
+
+}
+
+@media  screen and (min-width:577px) and (max-width:768) {
+    .two-box{
+        /* width: 1000px; */
+    }
+}
